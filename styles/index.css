@@ -14,10 +14,23 @@ body {
 a {
   color: rgb(247, 243, 45);
   font-family: "cabazon", serif;
-  font-size: 1000%;
+  font-size: 200px;
   font-weight: 400;
   font-style: normal;
   text-align: center;
   text-decoration: none;
   user-select: none;
+  transition: font-size 0.3s ease
+}
+
+@media (max-width: 768px) {
+  a {
+    font-size: 150px;
+  }
+}
+
+@media (max-width: 480px) {
+  a {
+    font-size: 100px;
+  }
 }
