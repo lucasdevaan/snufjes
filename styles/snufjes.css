@@ -4,7 +4,7 @@ body {
 
 h1 {
     height: 15vh;
-    margin: 0;
+    margin-top: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -17,6 +17,7 @@ h1 {
     text-align: center;
     text-decoration: none;
     user-select: none;
+	margin-bottom: 20px;
   }
 
 .line-with-image {
@@ -43,3 +44,11 @@ h1 {
 .mirrored {
   transform: scaleX(-1);
 }
+
+.rounded-square {
+            width: 100%;
+            height: 100px;
+            background-color: lightgray;
+            border-radius: 100px;
+            margin-top: 20px;
+        }
