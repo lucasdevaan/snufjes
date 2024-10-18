@@ -45,6 +45,14 @@ h1 {
   transform: scaleX(-1);
 }
 
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+	justify-content: flex-start;
+	width: 87%;
+	margin: 0 auto;
+}
+
 .rounded-square {
     position: relative;
     display: flex;
@@ -57,7 +65,6 @@ h1 {
     border-radius: 100px;
     margin-top: 20px;
     overflow: hidden;
-	margin-left: 9px;
 }
 
 .content-wrapper {
