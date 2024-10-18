@@ -51,7 +51,7 @@ h1 {
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-    width: 50%;
+    width: 390px;
     height: 100px;
     background-color: lightgray;
     border-radius: 100px;
@@ -71,6 +71,7 @@ h1 {
     width: 80px;
     height: auto;
     margin-right: 10px;
+	user-select: none;
 }
 
 .app-title {
@@ -78,11 +79,17 @@ h1 {
     font-family: "cabazon", serif;
     font-size: 40px;
     font-style: normal;
+  	user-select: none;
 }
 
 .download-button {
     color: rgba(149,149,149,1.00);
-	font-family: "basic sans";
+	font-family: "basic-sans", serif;
     font-size: 16px;
+	text-decoration: none;
+	margin-left: -4px;
 }
 
+.win-image {
+	width: 22px;
+}
