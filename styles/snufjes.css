@@ -57,6 +57,7 @@ h1 {
     border-radius: 100px;
     margin-top: 20px;
     overflow: hidden;
+	margin-left: 9px;
 }
 
 .content-wrapper {
