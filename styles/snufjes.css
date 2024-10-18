@@ -68,11 +68,12 @@ h1 {
 }
 
 .content-wrapper {
-    position: absolute;
-    left: 2%;
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	padding: 10px;
     display: flex;
-    flex-direction: row;
-    align-items: top;
+    align-items: center;
 }
 
 .icon-image {
@@ -96,6 +97,10 @@ h1 {
     font-size: 16px;
 	text-decoration: none;
 	margin-left: -4px;
+}
+
+.download-button:hover {
+	text-decoration: underline;
 }
 
 .win-image {
